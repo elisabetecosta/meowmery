@@ -1,0 +1,100 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #12C6F9;
+    --accent-color: #7be2ff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 3rem;
+    color: var(--main-color);
+    margin: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#score {
+    font-weight: bold;
+    display: none;
+}
+
+#message {
+    color: var(--main-color);
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+    max-width: 600px;
+    height: 300px;    
+}
+
+.card {
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+/* .game-start {
+
+} */
+
+.game-end {
+    display: none;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--main-color);
+    color: white;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+/* JavaScript styles
+.card-front
+.card-back
+.card-is-flipped
+*/
+.selected {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.matched {
+    visibility: hidden;
+	cursor: default;
+}
+
+.won {
+    display: none;
+}

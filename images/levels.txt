@@ -1,0 +1,16 @@
+1 - 6 cards (3 images)
+2 - 8 cards (4 images)
+3 - 10 cards (5 images)
+4 - 12 cards (6 images)
+
+5 - 16 cards (8 images)
+6 - 20 cards (10 images)
+7 - 24 cards (12 images)
+8 - 28 cards (14 images)
+9 - 32 cards (16 images)
+10 - 36 cards (18 images)
+11 - 40 cards (20 images)
+12 - 40 cards (20 images)
+
+13 - 16 cards (8 images) in 60 seconds
+...
